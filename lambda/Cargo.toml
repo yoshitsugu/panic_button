@@ -1,0 +1,13 @@
+[package]
+name = "push_handler"
+version = "0.1.0"
+authors = ["yoshitsugu"]
+edition = "2018"
+license = "MIT"
+
+[dependencies]
+lambda_runtime = "0.2.1"
+serde_json = "1.0.42"
+rusoto_core = { version = "0.42.0", default_features = false, features = ["rustls"] }
+rusoto_iot_data = { version = "0.42.0", default_features = false, features = ["rustls"] }
+bytes = "0.4.12"
