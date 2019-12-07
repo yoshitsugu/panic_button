@@ -1,0 +1,15 @@
+[package]
+name = "panic_button"
+version = "0.1.0"
+authors = ["yoshitsugu"]
+edition = "2018"
+license = "MIT"
+
+[dependencies]
+rumqtt = "0.31.0"
+slack-hook = "0.8.0"
+
+[profile.release]
+opt-level = 3
+lto = true
+panic = "abort"
