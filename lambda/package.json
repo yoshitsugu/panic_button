@@ -2,7 +2,7 @@
   "author": "yoshitsugu",
   "license": "MIT",
   "devDependencies": {
-    "serverless": "^3.25.1",
+    "serverless": "^3.30.1",
     "serverless-prune-plugin": "^1.4.1",
     "serverless-rust": "^0.3.7"
   }
